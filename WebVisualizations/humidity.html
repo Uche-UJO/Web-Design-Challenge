@@ -18,8 +18,7 @@
 
 <body>
   <!-- Navigation Section -->
-<div class="navigation">
-
+  <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,31 +52,24 @@
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 
-                
             </form>
         </div>
     </nav>
 </div>    
 
 
-
- <!-- Content Section -->
- <div class="container">
+  <!-- Content Section -->
+  <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-12">
-
         <!-- Left box  -->
-        <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
+        <div class="box" style="padding-bottom: 5px;">
+          <h3 class="title">Humidity</h3>
           <hr>
-          <img src="Resources/assets/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
+          <img src="Resources/assets/Fig2.png" alt="Humidity Graph">
+          <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of
+            humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
+            pattern between humidity and latitude.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -96,7 +88,7 @@
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img class="panel" src="Resources/assets/Fig2.png" alt="Humidity Graph">
+                  <img class="panel active" src="Resources/assets/Fig2.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
@@ -122,7 +114,6 @@
       </div>
     </div>
   </div>
-
   <!-- Footer Section -->
   <footer>
     <div class="footer">Copyright &copy; Uche Obianyimuo, April 2020</div>
