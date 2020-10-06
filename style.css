@@ -25,7 +25,7 @@ body{
     color: rgb(71, 72, 73) !important; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:#E7E7E7 !important; 
+    background-color:#c5c0c0 !important; 
 }
 a{
     color: #6D8092;
